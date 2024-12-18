@@ -2,6 +2,7 @@ const http=require("http");
 const url =require("url");
 const fs=require("fs");
 const mime=require("mime-types").lookup
+const PORT=8000;
 
 const MyServer= http.createServer(function(req,res){
 
@@ -23,5 +24,5 @@ const MyServer= http.createServer(function(req,res){
     }
 });
 
-}).listen(8000);
+}).listen(PORT);
 
