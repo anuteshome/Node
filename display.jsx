@@ -17,7 +17,7 @@ console.log(setProduct)
   return (
     <div>
         <h1 style={{
-          textAlign:"center"
+          textAlign:"center",color:"#242424"
         }}> Product Information</h1>
         <div className="info">
         {product.map((SingleProduct)=>{
